@@ -13,7 +13,7 @@ import java.util.List;
 import ez2.board02.model02.Article;
 import ez2.loader.JdbcUtil;
 
-public class ArticleDao {
+public class ArticleDao {//깃연동테스트2
 	private static ArticleDao instance = new ArticleDao();
 	public static ArticleDao getInstance() {
 		return instance;
