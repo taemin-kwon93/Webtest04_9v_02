@@ -2,7 +2,8 @@ package ez2.board;
 
 import java.sql.Timestamp;
 
-public class BoardDataBean {
+public class BoardDataBean {//깃허브 연동 테스트
+	//Wi-Fi 영향을 받는걸까?
 	private int num;
     private String writer;
     private String subject;
