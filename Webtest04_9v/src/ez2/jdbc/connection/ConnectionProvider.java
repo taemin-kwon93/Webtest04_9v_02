@@ -12,7 +12,7 @@ public class ConnectionProvider {
 			
 			//String jdbcDriver = "jdbc:apache:commons:dbcp:/pool";         
 	        //return DriverManager.getConnection(jdbcDriver);
-			return DriverManager.getConnection("jdbc:apache:commons:dbcp:/pool");
+			return DriverManager.getConnection("jdbc:apache:commons:dbcp:/pool2");
 		}
 
 }

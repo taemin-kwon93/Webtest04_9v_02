@@ -21,7 +21,7 @@ public class CommentDBBean {
 	private CommentDBBean(){}
 	
 	private Connection getConnection() throws Exception{
-		String jdbcDriver="jdbc:apache:commons:dbcp:/pool";
+		String jdbcDriver="jdbc:apache:commons:dbcp:/pool2";
 		return DriverManager.getConnection(jdbcDriver);
 	}
 	
